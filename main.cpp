@@ -13,14 +13,13 @@ void recursion(){
     char temp;
     cin >> temp;
     if(temp == '0'){
-        printf("等语言\n");
+        printf("结束\n");
         return;
     }
     if(temp != '0'){
         recursion();
-       
         printf("%c",temp);
-         printf("处处\n");
+        printf("recursion...\n");
     }
 }
 
